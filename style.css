@@ -185,6 +185,7 @@ div a img{
     border: 2px solid white;
     border-radius: 20px;
     margin-right: 60px;
+    width: 80%;
 }
 
 .Contact a:hover{
@@ -203,6 +204,7 @@ div a img{
     color: #fff;
     background: #e64946;
     z-index: 999;
+    border-radius: 10px;
 }
 .Contact .mh-back-to-top:hover{
     color: ivory;
@@ -401,7 +403,7 @@ div a img{
     .Contact div{
         margin-left: 10px;
     }
-    .Contact div a{
-        font-size: 14px;
+    .Contact p, .instagram .fa, .facebook .fa{
+        font-size: 13px;
     }
 }
