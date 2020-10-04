@@ -53,12 +53,10 @@ header{
     text-decoration: none;
 }
 .facebook .fa{
-    margin-left: 20px;
     font-size: 25px;
     color: blue;
 }
 .instagram .fa{
-    margin-left: 20px;
     color: deeppink;
     font-size: 25px;
 }
