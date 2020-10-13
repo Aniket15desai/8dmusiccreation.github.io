@@ -1,12 +1,10 @@
-<script>
-	$(document).ready(function(){
-		$('.menu').click(function(){
-    		$('ul').toggleClass('checkbtn')
-		})
-			
-	}
+$(document).ready(function(){
+	$('.menu').click(function(){
+		$('ul').toggleClass('checkbtn')
+	})
+}
+)
 
-</script>
 //Get the button
 var mybutton = document.getElementById("mybtn");
 	
