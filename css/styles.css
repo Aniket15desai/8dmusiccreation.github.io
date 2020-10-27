@@ -1,0 +1,147 @@
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navigation-bar {
+  position: fixed;
+  background-color: gray;
+  z-index: 11111;
+  width: 100%;
+  font-size: 20px;
+  top: 0;
+  text-align: center;
+  position: fixed;
+  color: white;
+}
+
+.navbar{
+  top: 26px;
+}
+
+.navigation-bar a{
+  padding-left: 10px;
+  text-decoration: none;
+}
+.facebook .fa{
+  font-size: 25px;
+  color: blue;
+}
+.instagram .fa{
+  color: deeppink;
+  font-size: 25px;
+}
+.youtube .fa{
+  color: red;
+  font-size: 25px;
+}
+
+.gradient {
+  background: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .7)),url(../img/4.jpg);
+  background-size: cover;
+}
+
+.page-header {
+  margin-top: 5.1rem;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.companies .container .row .col-md-4 img{
+  width: 300px;
+  height: 100px;
+}
+
+.col-md-5 img{
+  width: 360px;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.btn{
+  margin: 10px;
+}
+
+.feature {
+  color: #fff;
+  text-align: center;
+}
+
+.feature ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+.feature ul li {
+  padding-left: 2rem;
+  background-image: url(../img/check.svg);
+  background-repeat: no-repeat;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.feature img{
+  width: 320px;
+  padding: 10px;
+}
+
+.icon {
+  color: #fff;
+  height: 5rem;
+  width: 5rem;
+  font-size: 1.75rem;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  background-color: whitesmoke;
+}
+
+.contact {
+  color: #fff;
+}
+
+footer {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0;
+  padding: 1rem;
+  background-color: gray;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.video {
+  background: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .7)),url(../img/Background.jpg);
+  background-size: cover;
+  color: white;
+  margin-top: 5.1rem;
+  padding-bottom: 30px;
+}
+.video h1{
+  margin-top: 40px;
+}
+
+.mh-back-to-top {
+  position: fixed;
+  display: none;
+  right: 25px;
+  bottom: 25px;
+  padding: 5px 5px;
+  color: #fff;
+  background: #e64946;
+  z-index: 999;
+  border-radius: 5px;
+}
+
+.mh-back-to-top:hover{
+  color: ivory;
+}
